@@ -1,0 +1,121 @@
+ html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huduma ya Uchaguzi na Masoko</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: #001f3f;
+            padding: 20px;
+        }
+        .flag {
+            width: 120px;
+            height: auto;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #111;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        .button {
+            background-color: #0044cc;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #0033aa;
+        }
+        .markets {
+            text-align: left;
+            background-color: #222;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .markets h3 {
+            color: #00bfff;
+        }
+        .markets ul {
+            list-style: none;
+            padding: 0;
+        }
+        .markets li {
+            padding: 8px;
+            border-bottom: 1px solid #444;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            color: #00bfff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .social-links a:hover {
+            color: #ffcc00;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #001f3f;
+            font-size: 14px;
+        }
+    </style>
+    <script>
+        function confirmPayment() {
+            alert("Lipa 1000 TZS kupitia M-Pesa kwa namba: 0753938457 (Obey W. Mwakitalu) ili upate fursa ya kutangaza biashara yako.");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Huduma ya Uchaguzi na Masoko</h1>
+        <img class="flag" src="tanzania_flag.png" alt="Bendera ya Taifa">
+    </header>
+    <div class="container">
+        <h2>Karibu kwenye mfumo wa kusaidia jamii</h2>
+        <p>Pata taarifa kuhusu uchaguzi, biashara, na masoko ndani na nje ya nchi.</p>
+        <p><strong>Lipa 1000 TZS kwa tangazo au mauzo kupitia M-Pesa kwa namba: 0753938457 (Obey W. Mwakitalu)</strong></p>
+        <button class="button" onclick="confirmPayment()">Tangaza Biashara Yako</button>
+    </div>
+    <div class="markets">
+        <h3>Masoko Yanayopatikana</h3>
+        <ul>
+            <li>Soko la Kariakoo - Tanzania</li>
+            <li>Soko la Kimataifa la Dubai</li>
+            <li>Soko la Biashara ya Madini - Arusha</li>
+            <li>Soko la Afrika Kusini - Johannesburg</li>
+            <li>Soko la China - Guangzhou</li>
+        </ul>
+    </div>
+    <div class="social-links">
+        <h3>Unganisha Nasi</h3>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+        <a href="https://twitter.com" target="_blank">Twitter</a> |
+        <a href="https://wa.me/?text=Tazama%20tovuti%20hii%20ya%20biashara:%20https://example.com" target="_blank">WhatsApp</a> |
+        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Huduma ya Uchaguzi na Masoko | Wamiliki: Obey W. Mwakitalu & ChatGPT</p>
+    </footer>
+</body>
+</html>
